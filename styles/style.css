@@ -4,4 +4,5 @@ p {
 html {
   font-size: 25px; /* px means 'pixels': the base font size is now 10 pixels high  */
   font-family: 'UnifrakturMaguntia', cursive;
+  background-color: #999966;
 }
