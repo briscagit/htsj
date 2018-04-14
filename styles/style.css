@@ -2,6 +2,6 @@ p {
   color: DarkRed;
 }
 html {
-  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-size: 25px; /* px means 'pixels': the base font size is now 10 pixels high  */
   font-family: 'UnifrakturMaguntia', cursive;
 }
