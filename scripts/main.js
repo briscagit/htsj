@@ -16,9 +16,10 @@ var image = document.querySelector('img');
 image.onclick = function() {
     //alert("clicked image");
     //var myProperty = image.style.filter;
-    if(image.style.filter === 'invert(0%)') { // filter is off
-      image.style.filter = 'invert(100%)';
-    } else { // filter is on
-      image.style.filter = 'invert(0%)';
-    }
+
+    var filter = image.style.filter
+    // filter is off or image has not been clicked
+    if (filter === 'invert(0%)' || filter === '') filter = 'invert(100%)';
+    // filter is on
+    else filter = 'invert(0%)';
 }
