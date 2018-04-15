@@ -19,7 +19,7 @@ image.onclick = function() {
 
     var filter = image.style.filter
     // filter is off or image has not been clicked
-    if (filter === 'invert(0%)' || filter === '') filter = 'invert(100%)';
+    if (filter === 'invert(0%)' || filter === '') {filter = 'invert(100%)';}
     // filter is on
-    else filter = 'invert(0%)';
+    else {filter = 'invert(0%)';}
 }
