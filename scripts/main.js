@@ -17,9 +17,9 @@ image.onclick = function() {
     //alert("clicked image");
     //var myProperty = image.style.filter;
 
-    var filter = image.style.filter
+    var f = image.style.filter
     // filter is off or image has not been clicked
-    if (filter === 'invert(0%)' || filter === '') {filter = 'invert(100%)';}
+    if (f === 'invert(0%)' || f === '') {f = 'invert(100%)';}
     // filter is on
-    else {filter = 'invert(0%)';}
+    else {f = 'invert(0%)';}
 }
