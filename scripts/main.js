@@ -14,12 +14,12 @@ Click Me!</button>
 var image = document.querySelector('img');
 
 image.onclick = function() {
-    alert("clicked image");
+    //alert("clicked image");
     //var myProperty = image.style.filter;
 
-    var f = image.style.filter
+    //var f = image.style.filter
     // filter is off or image has not been clicked
-    if (f === 'invert(0%)' || f === '') {f = 'invert(100%)';}
+    if (image.style.filter === 'invert(0%)' || image.style.filter === '') image.style.filter = 'invert(100%)';
     // filter is on
-    else {f = 'invert(0%)';}
+    else image.style.filter = 'invert(0%)';
 }
