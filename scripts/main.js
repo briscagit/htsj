@@ -14,7 +14,7 @@ Click Me!</button>
 var image = document.querySelector('img');
 
 image.onclick = function() {
-    //alert("clicked image");
+    alert("clicked image");
     //var myProperty = image.style.filter;
 
     var f = image.style.filter
